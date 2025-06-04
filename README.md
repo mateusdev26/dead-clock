@@ -11,9 +11,11 @@
   - Smoking status (`boolean`)  
   - Exercise frequency (`enum`)  
   - Family health history  
+  - BMI analysis
 
 ## 📦 Tech Stack
 ```java
 import java.time.{LocalDate, LocalTime, Period};
 import java.util.Locale;
 import java.text.NumberFormat;
+import lombok.*;
